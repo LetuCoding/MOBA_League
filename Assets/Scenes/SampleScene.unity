@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 33012994}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4429, y: -0, z: -4.28686}
+  m_LocalPosition: {x: 0.13, y: 0.65, z: 6.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -301,7 +301,6 @@ GameObject:
   - component: {fileID: 390616666}
   - component: {fileID: 390616665}
   - component: {fileID: 390616664}
-  - component: {fileID: 390616669}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -331,7 +330,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_UseGeometry: 0
   m_DefaultArea: 0
-  m_GenerateLinks: 0
+  m_GenerateLinks: 1
   m_IgnoreNavMeshAgent: 1
   m_IgnoreNavMeshObstacle: 1
   m_OverrideTileSize: 0
@@ -435,31 +434,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &390616669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 390616663}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6eeb5dc026fdf4b488bc7ae0138ab719, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshLink
-  m_SerializedVersion: 1
-  m_AgentTypeID: 0
-  m_StartPoint: {x: 0.05171132, y: 1.1706369, z: 0.13856405}
-  m_EndPoint: {x: 0, y: 0, z: 2.5}
-  m_StartTransform: {fileID: 0}
-  m_EndTransform: {fileID: 0}
-  m_Activated: 1
-  m_Width: 0
-  m_CostModifier: 1
-  m_IsOverridingCost: 0
-  m_Bidirectional: 1
-  m_AutoUpdatePosition: 0
-  m_Area: 0
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,8 +784,8 @@ Transform:
   m_GameObject: {fileID: 1317233728}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.49714, y: 0.5, z: 5.78578}
-  m_LocalScale: {x: 5, y: 1, z: 1}
+  m_LocalPosition: {x: -1.49714, y: 0.37, z: 5.78578}
+  m_LocalScale: {x: 5.47, y: 1, z: 1.93}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 609757879}
@@ -920,15 +894,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1359807540711761377, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.388
       objectReference: {fileID: 0}
     - target: {fileID: 1359807540711761377, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.53
       objectReference: {fileID: 0}
     - target: {fileID: 1359807540711761377, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -3.024
       objectReference: {fileID: 0}
     - target: {fileID: 1359807540711761377, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1079,7 +1053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   cam: {fileID: 330585545}
-  spellQ: {fileID: 11400000, guid: 5441bb1a7261e5049b5fba1f1b576bab, type: 2}
+  championData: {fileID: 11400000, guid: 4a968bc1cc95667db980fd4b658c7bf5, type: 2}
 --- !u!136 &1654795578
 CapsuleCollider:
   m_ObjectHideFlags: 0

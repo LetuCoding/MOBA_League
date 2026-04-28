@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
    public bool isMoving {private set; get;}
 
 
-   public SpellData spellQ;
+   public ChampionData championData;
    
    
    
@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
        
        if (actions.Player.Skill1.WasPressedThisFrame() && !isCasting)
        {
-           CastSpell(spellQ);
+           CastSpell(championData.spellQ);
        }
 
 
@@ -92,8 +92,14 @@ public class PlayerMovement : MonoBehaviour
 
        animator.SetTrigger(spell.spellName);
 
-       yield return new WaitForSeconds(spell.castTime);
-
+       if (spell.spellName == "Steel Tempest")
+       {
+           animator.speed = 1 + championData.attackSpeed;
+       }
+       
+       float finalCastTime = spell.castTime / championData.attackSpeed;
+       yield return new WaitForSeconds(finalCastTime);
+       animator.speed = 1;
        isCasting = false;
    }
 
