@@ -976,10 +976,25 @@ PrefabInstance:
       addedObject: {fileID: 1654795575}
     - targetCorrespondingSourceObject: {fileID: 3445542050043496534, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1654795578}
+    - targetCorrespondingSourceObject: {fileID: 3445542050043496534, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1654795577}
     - targetCorrespondingSourceObject: {fileID: 3445542050043496534, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1654795578}
+      addedObject: {fileID: 1654795581}
+    - targetCorrespondingSourceObject: {fileID: 3445542050043496534, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1654795580}
+    - targetCorrespondingSourceObject: {fileID: 3445542050043496534, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1654795582}
+    - targetCorrespondingSourceObject: {fileID: 3445542050043496534, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1654795584}
+    - targetCorrespondingSourceObject: {fileID: 3445542050043496534, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1654795583}
   m_SourcePrefab: {fileID: -5814230247879327577, guid: 7d759830a70404a4a92b575e50ed8ab8, type: 3}
 --- !u!4 &1654795571 stripped
 Transform:
@@ -1053,7 +1068,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   cam: {fileID: 330585545}
-  championData: {fileID: 11400000, guid: 4a968bc1cc95667db980fd4b658c7bf5, type: 2}
 --- !u!136 &1654795578
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1077,6 +1091,67 @@ CapsuleCollider:
   m_Height: 228.75766
   m_Direction: 1
   m_Center: {x: 0, y: 100, z: 0}
+--- !u!114 &1654795580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654795572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27697cc00b3647cb92cbe8438d264c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChampionStats
+  championData: {fileID: 11400000, guid: 4a968bc1cc95667db980fd4b658c7bf5, type: 2}
+--- !u!114 &1654795581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654795572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27fd9ea5e57f1234ea07dabaefd36f1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Champion
+--- !u!114 &1654795582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654795572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 452f01c7eba1de34680e414699783fbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inventory
+--- !u!114 &1654795583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654795572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91f826e80fdb44a7af5a22cfd956f60f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpellController
+--- !u!114 &1654795584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654795572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad88e437034cdca133cf5abb7dfa60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInput
 --- !u!1 &1914752831
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,4 +1,4 @@
-using ScriptableOIbjects;
+using ScriptableObjects;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "MOBA/Champion Data")]
@@ -15,6 +15,10 @@ public class ChampionData : ScriptableObject
     public ResourceType resourceType;
     public float maxResource;
     public float resourceRegen;
+
+    [Header("Resistances")]
+    public float armor;
+    public float magicArmor;
 
     [Header("Movement")]
     public float moveSpeed;

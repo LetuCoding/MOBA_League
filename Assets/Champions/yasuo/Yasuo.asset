@@ -18,9 +18,11 @@ MonoBehaviour:
   resourceType: 0
   maxResource: 0
   resourceRegen: 0
-  moveSpeed: 6.89
+  armor: 60
+  magicArmor: 60
+  moveSpeed: 5
   attackDamage: 67
-  attackSpeed: 1.26
+  attackSpeed: 2
   spellQ: {fileID: 11400000, guid: 5441bb1a7261e5049b5fba1f1b576bab, type: 2}
   spellW: {fileID: 0}
   spellE: {fileID: 0}

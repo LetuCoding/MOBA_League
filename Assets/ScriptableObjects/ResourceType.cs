@@ -1,7 +1,7 @@
 
 
 // ResourceType.cs
-namespace ScriptableOIbjects
+namespace ScriptableObjects
 {
     public enum ResourceType
     {
