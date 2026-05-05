@@ -24,6 +24,6 @@ MonoBehaviour:
   attackDamage: 67
   attackSpeed: 2
   spellQ: {fileID: 11400000, guid: 5441bb1a7261e5049b5fba1f1b576bab, type: 2}
-  spellW: {fileID: 0}
+  spellW: {fileID: 11400000, guid: 747a57aa502e63de6a8935ee4e85f9a8, type: 2}
   spellE: {fileID: 0}
   spellR: {fileID: 0}

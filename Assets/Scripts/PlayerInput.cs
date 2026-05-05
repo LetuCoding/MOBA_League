@@ -37,9 +37,9 @@ public class PlayerInput : MonoBehaviour
         if (actions.Player.Skill1.WasPressedThisFrame())
             spellController.TryCast(stats.championData.spellQ, Mouse.current.position.ReadValue());
 
-        /*if (actions.Player.Skill2.WasPressedThisFrame())
+        if (actions.Player.Skill2.WasPressedThisFrame())
             spellController.TryCast(stats.championData.spellW, Mouse.current.position.ReadValue());
-
+/*
         if (actions.Player.Skill3.WasPressedThisFrame())
             spellController.TryCast(stats.championData.spellE, Mouse.current.position.ReadValue());
 
